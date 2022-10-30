@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Load Excel", "Load Excel\Load Excel.dtproj", "{15ECAC12-C9FA-4A10-A6CD-0E7EDEE8DA27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15ECAC12-C9FA-4A10-A6CD-0E7EDEE8DA27}.Development|Default.ActiveCfg = Development
+		{15ECAC12-C9FA-4A10-A6CD-0E7EDEE8DA27}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32214ED3-C8DE-4383-961E-F3871C03B41B}
+	EndGlobalSection
+EndGlobal

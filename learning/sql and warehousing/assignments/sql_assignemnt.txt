@@ -1,0 +1,118 @@
+1. display emp_id, first name and years of experience on a report.
+2. select member_id, name and membership_age (no of days since registration)
+3. encoding: select all columns from employee and one additional column that classifies employess in 3 categories based on year of experience. (hire_date)
+4. encoding::select all columns from member table and one additional column that classifies members in 3 categories based on membership_age
+5. Transpose:: Represent three categories generated in assignment 4 along columns instead of rows. Three columns (basic, executive, premium each column will carry value 0 or 1)
+6. Generate a report that shows sales and qty sold by store and month.
+7. Generate a report that shows sales by category and year where total sale is more than 2000 dollars
+8. Generate a report that shows employee name and manage name 
+9. Generate a report that shows avg price for every category
+10. Generate a report that selects all columns from product table with one additional column price_cat_avg (this has three values "below_avg", "avg", "above_avg" computed using price and avg price for category)
+11. Build query for transpose type 2 (convert columns into rows)
+12. 
+
+ASSIGNMENT 1 - Simple Expressions
+1. display emp_id, first name for employees on the report
+2. Generate a report that shows all products all columns
+3. Generate a report that shows product_id, description, category for all products belonging to any two categories
+4. Insert 3 products to product table with description field as empty
+5. Generate a report that shows product_id, description for all products. Products where description field is empty should show "STANDARD PRODUCT" as description.
+
+
+
+
+ASSIGNMENT 2. - Simple Expressions
+1. Generate a report that shows member_id, name, membership_age (no of days since registration)
+2. Generate a report that shows tran_id, product_id, quantity, sale and price (computed using quantity and sale values)
+3. Generate a report that shows emp_id, emp_fullname (concatenate first and last name separated by space)
+4. Generate a report that shows tran_id, product_id, quantity, sale, recency (no of days between current date and tran_date)
+5. Generate a report that shows tran_id, product_id, quantity, sale, day, month, quarter, year
+
+
+
+
+
+ASSIGNMENT 3 - Aggregations
+1. Generate a report that shows monthly sale by product
+2. Generate a report that shows monthly sale by product, member order results in descending order of the sale value.
+3. Generate a report that shows average monthly sale by a member, order results by descending order of sale value.
+4. Generate a report that shows total monthly sale by each product where total sale value is > 1000
+5. Generate a report that shows month and no of products for which total monthly sale for that month is > 1000
+
+
+
+ASSIGNMENT 4 - Joins - Aggregations
+1. Generate a report that shows total product sale by month. show product_description, month and sale
+2. Generate a report that shows total sale by member, product and month. show member name, product description, month, total_sale on the report.
+3. Add 3 products in product table that don't have key in tran_detail table. DO query 1 with left outer join insted of inner join.
+4. Add one row in tran_detail table where product id is not in product table. try left, right and full outer join queries.
+5. Generate a report that shows emp_id, emp_name, manager_id, manager_name from employee table. (self join).
+
+
+
+
+
+ASSIGNMENT 5 - Medium Complexity Transformations
+1. Add 3 products  to product table with little variation in category description field (some spelling difference). 
+Write a query to replace this new description to correct one (new column can be added). Save output of this query in new table.
+2. Create a table emp_latest_dept (defination similar to emp_dept) and write a query to save employee and his/her latest department in this new table.
+3. encoding: select all columns from employee and one additional column that classifies employess in 3 categories based on year of experience. (hire_date)
+4. encoding::select all columns from member table and one additional column that classifies members in 3 categories based on membership_age (new,loyal, very_loyal)
+5. Create table that stores tran_id, member_id, store_id, total_qty, total_sale for the transaction, tran_cat (this column should have values low, medium, high based on total sale value of the transaction.)
+
+
+
+
+
+ASSIGNMENT 6: Complex Transformations
+1. Generate a report that shows month, product_description, category_description, total_sale_product, total_sale_category, %_of_cat
+2. Add additional column price_cat on product table (low, medium, high based on price range). Generate a report that shows member_id, name, month, price_cat, total_quantity, total_sale by member, month.
+3. Generate a report that shows month, product_description, total_product_sale, Avg(sale) for all products in the category to which product belongs
+4. Compute indirect contribution of a product.:: Select transactions in which a product is present.. get total sale value for those transactions and 
+generate a report that shows product_id, month, total_sale, total_sale_indirect (total_sale value of transactions in which product is present)
+5. Generate report that shows product combinations (size 2) and total qty and total sale value when that combination is present. (*** very complex)
+
+
+
+
+ASSIGNMENT 7: Transpose
+1. Columns in to rows :: Create a table with defination similar to product table. (need not have higher dimensions like category). New table will have product_id, Description, level (this can be line_item, category etc)
+Write a query to store all hierarchy levels of product in one table (in came column) identified by level column.
+2. Write a query to show quarteryly sale by product in 4 columns instead of rows. it should look as product_id, description, q1_sale, q2_sale, q3_sale,q4_sale
+3. Generate a report similar to previous one but have 12 columns (one for each month). 
+4. Generate a report that shows product_id, total_sale_low_value_basket, total_sale_medium_value_basket, total_sale_high_value_basket
+5. Generate a report that shows product_id, new_member_sale, loyal_member_sale, very_loyal_member_sale
+
+
+
+
+ASSIGNMENT 8: Rank and Bucket
+1. Generate a report that shows top 5 products by member ranked by total qty purchased.
+2. Generate a report that shows top 10 products by store ranked by total sale value.
+3. Generate a report that divides products purchased by members in 10 buckets and shows appropriate bucket no against product. member_id, product_id, total_sale, bucket_no as member_bucket
+4. Generate a report that divides products in 10 buckets (considering all data) and shows. product_id, total_sale, bucket_no as global_bucket
+5. Generate a report that shows member_id, product_id, global_bucket, member_bucket.
+
+
+
+
+
+ASSIGNMENT 9: Running total
+1. Generate a report member, month, toal_sale, total_sale_till_month (running_total)
+2. Add data for one more year (do some small changes in data). Generate a report that shows member, year, month, sale, running total, previous year month sale, previous yr running total.
+3. Geneate a similar report for quarterly sale.
+4. Generate a report that shows employee, year, month, salary, total_salary_till_date.
+5. Generate report 2 at category level and report 4 at department level.
+
+
+
+
+
+
+
+ASSIGNMENT 10: Moving window, lead and lag, nth value
+1. Compute inter-purchase interval for every member :: member_id, tran_date, previous_tran_date, inter_purchase_interval (in days) -- compute avg ipi for every member.
+2. Generate a report that displays previous 2 month and next 3 month data on columns. member_id, product_id, -2_month_sale, -1_month_sale, month_sale,next_month_sale, +2_month_sale, +3_month_sale
+3. Generate a report that shows member, product, month, sale, last_3_month_sale
+4. Generate a report that shows member, product, month, sale, 2nd_max_totalsale_value, 3rd_min_totalsale_value
+5. Generate a report 4 for categories.

@@ -1,0 +1,100 @@
+product_id,description,price,cost,subcategory,category,brand,max_qty,price_cat,ipi_days,percent_disc
+1,Biscuits,1.5,1.335,Biscuits,"Baked goods",parley,5,LOW,7,1
+3,Cheeslings,2.45,2.156,Biscuits,"Baked goods",parley,5,LOW,15,1
+4,Croissants,2.99,2.6013,Bread,"Baked goods",palekar,5,LOW,7,1
+6,Pretzels,1.99,1.6915,Biscuits,"Baked goods",chakor,5,LOW,15,1
+7,"Puff pastry",1.5,1.365,Cake,"Baked goods",chakor,5,LOW,5,1
+8,"Cup Cakes",1.89,1.7577,Cake,"Baked goods",chakor,5,LOW,15,1
+9,Doughnuts,2.99,2.5714,Bread,"Baked goods",palekar,5,LOW,7,1
+10,"Milk Bread",1.79,1.5394,Bread,"Baked goods",palekar,5,LOW,7,1
+11,Coke,4.99,4.6906,Soda,Beverages,coka-cola,3,MEDIUM,7,1
+12,Fruit-drink,1.8,1.692,Juice,Beverages,amul,5,LOW,7,1
+13,"Grape Juice",2.98,2.7118,Juice,Beverages,tropicana,5,LOW,7,1
+14,Lemonade,0.99,0.9405,Soda,Beverages,tropicana,5,LOW,7,1
+15,"Orange Juice",2.98,2.7416,Juice,Beverages,minute-made,5,LOW,7,1
+16,Pineapple,3.14,2.826,Juice,Beverages,minute-made,3,MEDIUM,7,1
+18,Ariel,3.88,3.4532,Soap,"Cleaning products",Ariel,3,MEDIUM,60,1
+19,"Clorox Wipes",3.45,3.2085,Wipes,"Cleaning products",Clorox,3,MEDIUM,30,1
+20,"Dish soap",1.39,1.2371,Soap,"Cleaning products",Clorox,5,LOW,30,1
+21,Lysol,2.99,2.6611,Cleaning,"Cleaning products",Lysol,5,LOW,60,1
+22,"Mr. Clean",2.79,2.6505,Cleaning,"Cleaning products",Lysol,5,LOW,90,1
+23,"Surf Excel",3.79,3.2973,Soap,"Cleaning products",Surf,3,MEDIUM,60,1
+24,Windex,2.8,2.604,Cleaning,"Cleaning products",Lysol,5,LOW,60,1
+25,"Barbecue Sauce",2.35,2.0445,Sause,"Condiments / Sauces",Kisan,5,LOW,90,1
+26,Mayonnaise,2.98,2.5628,Sause,"Condiments / Sauces",Kisan,5,LOW,60,1
+27,"Mustard Sauce",2.15,1.9135,Sause,"Condiments / Sauces",Maggi,5,LOW,90,1
+28,Olive,2.89,2.5721,Condiments,"Condiments / Sauces",Maggi,5,LOW,60,1
+29,"Peanut butter",2.65,2.2525,Sause,"Condiments / Sauces",Maggi,5,LOW,90,1
+30,Pickles,3.1,2.759,Condiments,"Condiments / Sauces",Kisan,3,MEDIUM,90,1
+31,Salsa,2.49,2.2161,Sause,"Condiments / Sauces",Maggi,5,LOW,60,1
+32,Butter,3.09,2.9046,Butter,Dairy,Amul,3,MEDIUM,15,1
+33,Cheese,5.99,5.6905,Cheese,Dairy,Britania,1,MEDIUM,7,1
+34,Milk,1.99,1.7512,Milk,Dairy,Amul,5,LOW,7,1
+35,"Sour cream",2.09,1.9437,Cream,Dairy,Amul,5,LOW,15,1
+36,"Whipped cream",2.39,2.0554,Cream,Dairy,Amul,5,LOW,21,1
+37,Yogurt,2.69,2.5555,Milk,Dairy,Amul,5,LOW,7,1
+38,Paneer,3.5,3.325,Cheese,Dairy,Britania,3,MEDIUM,7,1
+39,"Butter Milk",2.75,2.3925,Milk,Dairy,Amul,5,LOW,7,1
+40,"Cottage Cheese",3.59,3.1233,Cheese,Dairy,Britania,3,MEDIUM,21,1
+41,Curd,2.39,2.2705,Milk,Dairy,Amul,5,LOW,7,1
+42,Apple,0.39,0.3588,Fruit,"Fresh fruits",Gala,5,LOW,15,1
+43,Plums,3.99,3.5511,Fruit,"Fresh fruits",Gala,3,MEDIUM,30,1
+44,Berries,1.49,1.2814,Berries,"Fresh fruits",Malas,5,LOW,60,1
+45,Kiwis,0.99,0.9009,Fruit,"Fresh fruits",Malas,5,LOW,90,1
+46,Lemons,0.69,0.6348,Fruit,"Fresh fruits",Malas,5,LOW,7,1
+47,Melon,2.5,2.325,Fruit,"Fresh fruits",Malas,5,LOW,21,1
+48,Oranges,2.39,2.0793,Fruit,"Fresh fruits",Gala,5,LOW,15,1
+49,Pears,3.99,3.3915,Fruit,"Fresh fruits",Gala,3,MEDIUM,15,1
+50,Avocados,2.6,2.21,"Fruit Veg","Fresh vegetables",Farmer's,5,LOW,15,1
+51,Brocoli,2.49,2.1663,Cruciferous,"Fresh vegetables",Farmer's,5,LOW,7,1
+52,Cabbage,0.87,0.7569,Cruciferous,"Fresh vegetables",Farmer's,5,LOW,7,1
+53,Cauliflower,0.99,0.9009,Cruciferous,"Fresh vegetables","MyMart Value",5,LOW,7,1
+54,Celery,0.85,0.731,Cucumber,"Fresh vegetables","MyMart Value",5,LOW,15,1
+55,Cucumber,0.78,0.7098,Cucumber,"Fresh vegetables","MyMart Value",5,LOW,15,1
+56,Lettuce,1.59,1.4787,Cruciferous,"Fresh vegetables","MyMart Value",5,LOW,15,1
+57,Onion,1.99,1.8109,Spice,"Fresh vegetables",Farmer's,5,LOW,60,1
+58,Potato,2.25,1.935,Carb,"Fresh vegetables",Farmer's,5,LOW,60,1
+59,Pumpkin,2.79,2.3994,"Fruit Veg","Fresh vegetables",Farmer's,5,LOW,30,1
+60,Spinach,1.99,1.791,Leafy,"Fresh vegetables","MyMart Value",5,LOW,7,1
+61,Zucchini,1.29,1.2126,"Fruit Veg","Fresh vegetables","MyMart Value",5,LOW,15,1
+62,Burritos,6.5,5.72,Mexican,Frozen,Venkis,1,HIGH,90,1
+63,"Butter Chicken",3.79,3.4489,"Indian Chicken Recipe",Frozen,Venkis,3,MEDIUM,90,1
+64,"Chicken Biryani",4.46,3.9248,"Indian Chicken Recipe",Frozen,Venkis,3,MEDIUM,90,1
+65,"Chicken Wings",7.99,7.191,"Chicken Recipe",Frozen,Venkis,1,HIGH,60,1
+66,"Fish Fingers",3.99,3.4713,"Fish Recipe",Frozen,Tenyson,3,MEDIUM,30,1
+67,Fries,2.5,2.325,"Potato Recipe",Frozen,Tenyson,5,LOW,30,1
+68,"Hash Brown",2.59,2.4346,"Potato Recipe",Frozen,Tenyson,5,LOW,30,1
+69,"Ice cream",3.99,3.4314,Dessart,Frozen,Amul,3,MEDIUM,15,1
+70,"Panner Butter Masala",3.5,3.22,"Indian Recipe",Frozen,Venkis,3,MEDIUM,30,1
+71,pizza,6.59,5.8651,Pizza,Frozen,Chakor,1,HIGH,15,1
+72,"Veggie burgers",3.84,3.264,Pizza,Frozen,Chakor,3,MEDIUM,15,1
+73,"Basen Flour",3.99,3.4713,Flour,Grocery,Sohani,3,MEDIUM,90,1
+74,"Choco Chips",0.95,0.836,Toppings,Grocery,Chakor,5,LOW,60,1
+75,Chocolate,8.79,7.9989,Toppings,Grocery,Britania,1,HIGH,15,1
+76,Garlic,0.57,0.5244,Spice,Grocery,"MyMart Value",5,LOW,15,1
+77,Ginger,0.59,0.5015,Spice,Grocery,"MyMart Value",5,LOW,15,1
+78,Jaggery,3.8,3.23,Sugar,Grocery,Pitambari,3,MEDIUM,60,1
+79,Maida,3.57,3.1059,Flour,Grocery,Pitambari,3,MEDIUM,90,1
+80,"Olive oil",4.98,4.3824,Oil,Grocery,"MyMart Value",3,MEDIUM,90,1
+81,Rava,3.59,3.231,Grain,Grocery,"MyMart Value",3,MEDIUM,90,1
+82,Rice,7.99,6.9513,Grain,Grocery,"MyMart Value",1,HIGH,90,1
+83,Salt,0.21,0.1932,Grain,Grocery,Tata,5,LOW,90,1
+84,Spices,2.5,2.175,Spice,Grocery,Tata,5,LOW,90,1
+85,Sugar,4.99,4.3413,Sugar,Grocery,Tata,3,MEDIUM,90,1
+86,Tamarind,1.29,1.1352,Spice,Grocery,Tata,5,LOW,90,1
+87,"Wheat Flour",9.99,9.2907,Flour,Grocery,"MyMart Value",1,HIGH,90,1
+88,"Rice Flour",3.99,3.3915,Flour,Grocery,"MyMart Value",3,MEDIUM,90,1
+89,"Red Chills",2.78,2.502,Spice,Grocery,Tata,5,LOW,90,1
+90,"Turmeric Powder",0.99,0.8415,Spice,Grocery,Tata,5,LOW,90,1
+91,Candy,6.7,5.695,"sweet and saulty",Snacks,Amul,1,HIGH,60,1
+92,Chips,2.49,2.3655,"sweet and saulty",Snacks,Balaji,5,LOW,15,1
+93,"Dried Pears",5.99,5.2712,"dry fruit",Snacks,"Goa Dry Fruits",1,MEDIUM,60,1
+94,"Half Popped Popcorn",1.99,1.7512,"sweet and saulty",Snacks,Balaji,5,LOW,15,1
+95,"Honey Rosted Soybeans",2.99,2.6013,"sweet and saulty",Snacks,Balaji,5,LOW,15,1
+96,Oatmeal,2.75,2.5025,"sweet and saulty",Snacks,Balaji,5,LOW,15,1
+97,"Organic Cashews",5.99,5.5108,"dry fruit",Snacks,"Goa Dry Fruits",1,MEDIUM,60,1
+98,"Organic Trail Mix",4.99,4.3413,"dry fruit",Snacks,"Goa Dry Fruits",3,MEDIUM,60,1
+99,"Roasted Pistachios",4.99,4.2914,"dry fruit",Snacks,"Goa Dry Fruits",3,MEDIUM,60,1
+100,Vege-Straws,1.99,1.8308,"sweet and saulty",Snacks,Balaji,5,LOW,30,1
+101,"new product",2,1.7,"sweet and saulty",Snacks,Amul,4,LOW,40,1
+100001,TEST,2.3,2.185,"sweet and saulty",TEST,Amul,4,LOW,45,1
